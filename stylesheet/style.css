@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../media/back2.jpg");
+  background-size: auto;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  font-family: Comfortaa, cursive !important;
+}
+
+.gifs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 230px;
+  background-image: url('../media/giphy.gif');
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.greeting {
+  color: rgb(134, 46, 156);
+  margin: 0.6rem 0 1rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.description {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-button {
+  width: 120px;
+  height: 50px;
+}
+
+.link-button:hover {
+  box-shadow: 0px 0px 16px 15px rgba(143, 9, 152, 0.27);
+  border-radius: 100px;
+}
+
+.button-container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.block-addition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.product {
+  width: 350px;
+  height: 200px;
+  margin: 10px 0;
+}
